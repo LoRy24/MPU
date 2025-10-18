@@ -1,9 +1,9 @@
-package dev.lory24.mpu.framework;
+package com.github.LoRy24.mpu.framework;
 
-import dev.lory24.mpu.framework.packets.client.StatusResponsePacket;
-import dev.lory24.mpu.framework.packets.server.HandshakePacket;
-import dev.lory24.mpu.framework.packets.server.StatusRequestPacket;
-import dev.lory24.mpu.framework.types.ServerListPingResult;
+import com.github.LoRy24.mpu.framework.packets.client.StatusResponsePacket;
+import com.github.LoRy24.mpu.framework.packets.server.HandshakePacket;
+import com.github.LoRy24.mpu.framework.packets.server.StatusRequestPacket;
+import com.github.LoRy24.mpu.framework.types.ServerListPingResult;
 import lombok.experimental.UtilityClass;
 
 import java.io.DataInputStream;

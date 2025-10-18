@@ -1,9 +1,9 @@
-package dev.lory24.mpu.framework.packets.client;
+package com.github.LoRy24.mpu.framework.packets.client;
 
 import com.google.gson.Gson;
-import dev.lory24.mpu.framework.utils.DataTypesUtilities;
-import dev.lory24.mpu.framework.packets.AbstractPacket;
-import dev.lory24.mpu.framework.types.ServerListPingResult;
+import com.github.LoRy24.mpu.framework.utils.DataTypesUtilities;
+import com.github.LoRy24.mpu.framework.packets.AbstractPacket;
+import com.github.LoRy24.mpu.framework.types.ServerListPingResult;
 import lombok.Getter;
 
 import java.io.ByteArrayInputStream;

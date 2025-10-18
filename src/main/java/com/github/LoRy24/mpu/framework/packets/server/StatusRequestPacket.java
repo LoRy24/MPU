@@ -1,6 +1,6 @@
-package dev.lory24.mpu.framework.packets.server;
+package com.github.LoRy24.mpu.framework.packets.server;
 
-import dev.lory24.mpu.framework.packets.AbstractPacket;
+import com.github.LoRy24.mpu.framework.packets.AbstractPacket;
 
 import java.io.ByteArrayInputStream;
 

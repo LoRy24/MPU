@@ -1,4 +1,4 @@
-package dev.lory24.mpu.framework.utils;
+package com.github.LoRy24.mpu.framework.utils;
 
 import lombok.experimental.UtilityClass;
 import org.jetbrains.annotations.NotNull;

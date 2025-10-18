@@ -1,7 +1,7 @@
-package dev.lory24.mpu.framework.packets.server;
+package com.github.LoRy24.mpu.framework.packets.server;
 
-import dev.lory24.mpu.framework.utils.DataTypesUtilities;
-import dev.lory24.mpu.framework.packets.AbstractPacket;
+import com.github.LoRy24.mpu.framework.utils.DataTypesUtilities;
+import com.github.LoRy24.mpu.framework.packets.AbstractPacket;
 import lombok.RequiredArgsConstructor;
 
 import java.io.ByteArrayInputStream;
