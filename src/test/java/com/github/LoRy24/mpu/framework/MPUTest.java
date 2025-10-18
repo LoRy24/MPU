@@ -1,6 +1,6 @@
-package dev.lory24.mpu.framework;
+package com.github.LoRy24.mpu.framework;
 
-import dev.lory24.mpu.framework.types.ServerListPingResult;
+import com.github.LoRy24.mpu.framework.types.ServerListPingResult;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.annotation.Testable;
 

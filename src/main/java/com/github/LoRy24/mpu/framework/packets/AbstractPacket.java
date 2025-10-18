@@ -1,6 +1,6 @@
-package dev.lory24.mpu.framework.packets;
+package com.github.LoRy24.mpu.framework.packets;
 
-import dev.lory24.mpu.framework.utils.DataTypesUtilities;
+import com.github.LoRy24.mpu.framework.utils.DataTypesUtilities;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
