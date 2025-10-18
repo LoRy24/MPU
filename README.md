@@ -1,4 +1,7 @@
 # Minecraft Pinging Utilities (MPU)
+![GitHub License](https://img.shields.io/github/license/LoRy24/MPU?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/LoRy24/MPU?style=flat-square)
+
 A modern, lightweight Java library for interacting with the Minecraft Server List Ping protocol.
 
 ## 🎗️ Overview
