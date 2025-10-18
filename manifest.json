@@ -1,0 +1,8 @@
+{
+  "name": "mpu-framework",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Minecraft Pinging Utilities is a framework used to ping Minecraft servers",
+  "author": "LoRy24",
+  "repository": "https://github.com/LoRy24/MPU",
+  "license": "BSD-3-Clause license"
+}
