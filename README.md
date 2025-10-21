@@ -24,17 +24,23 @@ dependencies section:
 <dependency>
   <groupId>com.github.lory24</groupId>
   <artifactId>mpu-framework</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
 If you're using gradle, paste this:
 
 ```groovy
-implementation 'com.github.lory24:mpu-framework:1.0.0-SNAPSHOT'
+implementation 'com.github.lory24:mpu-framework:1.0.0'
 ```
 
 Otherwise, you have to download the package .jar file and import it manually (unrecommended).
+
+> [!CAUTION]
+> In order to include the Gradle or Maven dependency, you'll need to add the GitHub repository as shown in the 
+> [Official Guide for Maven](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry) 
+> or [Official Guide for Gradle](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-gradle-registry). 
+> Remember to create a token and set it in the environment variables or any other method to let maven/gradle use them.
 
 ## 🤝 Contributing
 Good contributions (including docs) are welcome!
