@@ -26,8 +26,10 @@ import java.io.*;
 @Getter
 @RequiredArgsConstructor(access = AccessLevel.PROTECTED)
 public abstract class AbstractPacket {
-    /* Internal Packet Fields */
+    /* Packet ID */
     private final int ID;
+
+    /* Packet written data */
     protected ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
     /**

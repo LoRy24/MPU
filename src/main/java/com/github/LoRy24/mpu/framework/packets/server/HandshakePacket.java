@@ -11,7 +11,7 @@ import java.io.IOException;
  * This class represent the Handshake packet, the most important one when talking with a Minecraft server. This determines
  * the action that the connection wants to perform, such as enter the game or just ping the server.
  * <p>
- * So, to start the conversation client <-> Server, this is required.
+ * So, to start the conversation Client-Server, this is required.
  *
  * @author LoRy24
  * @version 1.0.0
@@ -28,8 +28,19 @@ public class HandshakePacket extends AbstractPacket {
      */
     @RequiredArgsConstructor
     public enum NextState {
+        /**
+         * Property used to do a server list ping.
+         */
         STATUS(0x01),
+
+        /**
+         * Property used to log in
+         */
         LOGIN(0x02),
+
+        /**
+         * ? Not very well documentated...
+         */
         TRANSFER(0x03);
 
         private final int value;
