@@ -24,14 +24,14 @@ dependencies section:
 <dependency>
   <groupId>com.github.lory24</groupId>
   <artifactId>mpu-framework</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
 If you're using gradle, paste this:
 
 ```groovy
-implementation 'com.github.lory24:mpu-framework:1.0.0'
+implementation 'com.github.lory24:mpu-framework:1.0.2'
 ```
 
 Otherwise, you have to download the package .jar file and import it manually (unrecommended).
